@@ -1,0 +1,955 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+div {
+    display: flex;
+}
+
+.fd-c {
+    flex-direction: column;
+}
+
+.fd-r {
+    flex-direction: row;
+}
+
+.headerMain {
+
+    background-image: url("Image/banner2.png.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 60px 185px;
+    background-color: #2C2C2C;
+    /* position: relative; */
+}
+
+
+
+.navMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-bottom: 185px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+    text-underline-offset: 8px;
+    color: var(--green);
+}
+
+.navSearch {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navSearch .fa-solid {
+    color: var(--white);
+    cursor: pointer;
+}
+
+.btn {
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: var(--green);
+    color: var(--white);
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+
+}
+
+.closeBtn,
+.menuBtn {
+    font-size: 28px;
+    margin: 0px 20px;
+    display: none;
+}
+
+/*-----------------------------------------> Nav-Content <----------------------------------------------------------*/
+
+.NavLeft h3 {
+    color: var(--white);
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 65px;
+    width: 55%;
+    padding-bottom: 10px;
+    margin: 45px 0px 8px;
+}
+
+.NavLeft p {
+    font-size: 20px;
+    color: #D5D5D5;
+    width: 55%;
+}
+
+.NavBtn1 {
+    padding-top: 25px;
+    gap: 20px;
+
+}
+
+.navBtn {
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--green);
+}
+
+a {
+
+    /* This is for : A TAG : to remove the underline */
+
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.navBtns {
+    padding: 15px 38px;
+    border-radius: 8px;
+    border-color: #D5D5D5;
+    background: transparent;
+}
+
+.navBtns:hover {
+    background-color: var(--green);
+    transition: 0.2s;
+
+}
+
+
+/* --------------------------------- SECOND PAGE CSS --------------------------------------------------------------------------------------- */
+
+.scpageheading {
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+}
+
+.scpageheading>h3 {
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 95px;
+}
+
+.imgSize {
+    width: 350px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+
+
+
+.scphotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+
+/* --------------------------- THIRD PAGE ------------------------------------------------------------------------------------- */
+
+
+.thirdmain {
+    display: flex;
+
+}
+
+.thirdpageimg {
+    width: 80%;
+    height: 95%;
+}
+
+.rightside h2 {
+    padding-top: 60px;
+    padding-bottom: 15px;
+    font-size: 36px;
+    line-height: 55px;
+    font-weight: 400;
+    color: #2C2C2C;
+    margin-right: 80px;
+}
+
+.fa-solid {
+    padding-left: 20px;
+    padding-top: 7px;
+    color: #28a745;
+}
+
+.rightside p {
+    padding-left: 12px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #727272;
+    margin-bottom: 8px;
+
+}
+
+.aboutBtns {
+    padding-top: 35px;
+}
+
+
+.aboutBtn {
+    background-color: #28a745;
+    height: 50px;
+    width: 155px;
+    margin-left: 35px;
+    border-radius: 4px;
+    color: var(--white);
+    border: none;
+}
+
+.aboutBtn:hover {
+    background-color: #17a2b8;
+    color: #2C2C2C;
+}
+
+
+
+
+/* ----------------------- THIRD PAGE --------------------------------------------------------------------------- */
+
+.Forthcontainer h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 55px;
+    color: #2C2C2C;
+    /* padding-bottom: 30px; */
+
+}
+
+.Forthcontainer p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #727272;
+    line-height: 28px;
+    /* padding-bottom: 45px; */
+    font-weight: 400;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+.secondrow {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 45px 65px;
+}
+
+.fourthbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #28a745;
+    padding-bottom: 95px;
+}
+
+
+.fourthbtns {
+    padding: 20px 50px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/* -------------- FIFTH PAGE ------------------------------------------------------- */
+
+.fifthMain {
+
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(fifthAbout.png);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 55px;
+}
+
+
+.threeContainer {
+    width: 20%;
+    height: 80%;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+    background: transparent;
+
+}
+
+.smallIcon {
+    width: 85px;
+
+}
+
+.fifthMain {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+
+.threeContainer h4 {
+    padding-top: 45px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.threeContainer p {
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 40px;
+    line-height: 20px;
+}
+
+.threeContainer:hover {
+    background-color: #28a745;
+    border: none;
+    transition: 1s;
+
+}
+
+
+/* ---------- SIXTH PAGE ---------------------------------------------  */
+
+
+.Sixthpage {
+    padding-top: 100px;
+    background-color: #28a745;
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    justify-content: center;
+}
+
+.sixthcontaint h1 {
+    padding-top: 75px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.sixthcontaint p {
+    text-align: center;
+    color: #fff;
+    line-height: 25px;
+}
+
+.sixpagebtns {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.sixpagebtn {
+    padding: 15px 35px;
+    border-radius: 4px;
+    border: none;
+    background-color: #28a745;
+    border: 1px solid #fff;
+    font-size: 16px;
+    color: #fff;
+}
+
+.sixpagebtn:hover {
+    background-color: #fff;
+    color: #28a745;
+    transition: 1s;
+}
+
+
+
+
+/* --------------- SEVEN PAGE ------------------------------------------  */
+
+
+
+.footerContainer {
+    background: #2C2C2C;
+    padding: 60px 185px;
+    flex-wrap: wrap;
+}
+
+.footerLogo {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footerlogos {
+    width: 45%;
+    padding-bottom: 30px;
+
+}
+
+.footerLogo p {
+    color: #C7C7C7;
+    line-height: 25px;
+    padding-bottom: 45px;
+}
+
+.fa-brands {
+
+    color: #C7C7C7;
+    font-size: 30px;
+    line-height: 45px;
+    border-radius: 7px;
+
+}
+
+.socialmedia {
+padding-bottom: 20px;
+    gap:25px;
+}
+
+.fa-brands:hover {
+    color: #28a745;
+
+
+}
+
+.footerLogo {
+    width: 330px;
+    /* border: 2px solid red; */
+}
+
+
+/* -------------------------------------------------------------------- */
+
+
+.footerlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+.footerContainer {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.box2{
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.box3 li {
+    list-style: none;
+    padding: 10px;
+    color: #C7C7C7;
+    
+}
+
+.box3 li a{
+    color: #C7C7C7;
+    font-size: 16px;
+}
+
+
+.footercopyright{
+    width: 100%;
+    height: 65px;
+    background: #1F1F1F;
+    font-size: 13px;
+    color: #C7C7C7;
+    margin-bottom: 0;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+span{
+    color: #28a745;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------ MEDIA QUERY :- 700PX ------------------------------------------------ */
+
+
+
+@media only screen and (max-width:700px) {
+
+    .headerMain {
+        background-size: cover;
+        width: 100%;
+        padding: 45px 65px;
+    }
+
+    .NavLeft h3 {
+        font-size: 40px;
+        letter-spacing: 2px;
+        font-weight: 300;
+        line-height: 47px;
+        width: 65%;
+    }
+
+    .NavLeft p {
+        font-size: 20px;
+        color: #D5D5D5;
+        width: 95%;
+        line-height: 27px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    ul li {
+        display: block;
+        margin: 20px;
+    }
+
+    .menuBtn {
+        display: block;
+    }
+
+    #menu {
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        text-align: center;
+    }
+
+    .navSearch {
+        display: none;
+    }
+
+    .navMain {
+        position: relative;
+    }
+
+    .logo {
+        position: absolute;
+        left: 0;
+    }
+
+    /* -------------------------- SECOND PAGE ---------------------------------------------------------------------------------- */
+
+
+
+
+    .scphotos {
+        flex-wrap: wrap;
+    }
+
+    .scimg1>img {
+        width: 600px;
+        height: 450px;
+        background-size: cover;
+    }
+
+    .scpageheading>h3 {
+
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 40px;
+
+    }
+
+    .imgSize {
+        border-radius: 20px;
+        width: 570px;
+        flex-wrap: wrap;
+    }
+
+    /* --------------------- Third Page --------------------------------------- */
+
+    .thirdmain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightside h2 {
+        text-align: center;
+        font-weight: 550;
+        padding-left: 35px;
+        font-size: 25px;
+        line-height: 40px;
+
+    }
+
+    .fa-solid {
+        padding-left: 20px;
+        padding-top: 7px;
+        color: #28a745;
+    }
+
+    .rightside p {
+        padding-left: 20px;
+        /* padding-right: 20px; */
+        font-size: 14px;
+        font-weight: 450;
+        line-height: 28px;
+
+
+    }
+
+    /* ----------- FIFTH PAGE ------------------------------------  */
+
+
+    .fifthMain {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(Image/fifthAbout.png);
+        width: 100%;
+        height: 100%;
+        padding: 20px 50px;
+        padding-top: 50PX;
+        padding-bottom: 50PX;
+
+
+    }
+
+
+    .fifthMain {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .threeContainer {
+        width: 63%;
+        height: 90%;
+    }
+
+    .threeContainer p {
+
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        padding: 0px 40px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- MEDIA QUERY :- 320PX TO 480PX ----------------------------------------------------------- */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .headerMain {
+
+        background-image: url("Image/banner2.png.webp");
+        width: 108%;
+        height: 100vh;
+    }
+
+    .headerMain {
+        padding: 45px 35px;
+    }
+
+    .NavLeft h3 {
+        font-size: 25px;
+        letter-spacing: 2px;
+        font-weight: 300;
+        line-height: 40px;
+        width: 65%;
+    }
+
+    .NavLeft p {
+        font-size: 20px;
+        color: #D5D5D5;
+        width: 100%;
+        line-height: 27px;
+    }
+
+    a {
+
+        /* This is for : A TAG : to remove the underline */
+
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--white);
+    }
+
+    .navBtns {
+        padding: 10px 35px;
+        border-radius: 8px;
+        border-color: #D5D5D5;
+        background: transparent;
+    }
+
+
+    .navBtn {
+        padding: 10px 35px;
+        border-radius: 8px;
+        border: none;
+        background-color: var(--green);
+    }
+
+    /* ------------ SECOND PAGE ------------------------------------------------------------- */
+
+
+    .sc-container {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%;
+        height: 100vh; */
+
+    }
+
+    .scimg1>img {
+        width: 300px;
+        height: 350px;
+        background-size: cover;
+    }
+
+    .scpageheading>h3 {
+
+        text-align: center;
+        font-size: 35px;
+        font-weight: 200;
+        line-height: 45px;
+
+    }
+
+    .imgSize {
+        border-radius: 20px;
+        width: 370px;
+        flex-wrap: wrap;
+
+    }
+
+    /* -------------------------- Third Page------------------------------------------------------------------------- */
+
+    .thirdContainer {
+        /* width: 100%;
+        height: 100vh; */
+        background-color: #dc3545;
+
+
+    }
+
+    .leftside .thirdpageimg {
+
+        margin-left: 37px;
+        width: 297px;
+        height: 280px;
+        border-radius: 8px;
+    }
+
+
+    /* ------------------ FIFTH PAGE ------------------------------------------------- */
+
+
+
+    .fifthMain {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(Image/fifthAbout.png);
+        width: 100%;
+        height: 100%;
+        padding: 20px 50px;
+        padding-top: 50PX;
+        padding-bottom: 50PX;
+
+
+    }
+
+
+    .fifthMain {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .threeContainer {
+        width: 73%;
+        height: 100%;
+    }
+
+    .threeContainer p {
+
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        padding: 0px 40px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+
+    /* --------------- SIXTH PAGE ------------------------------------------- */
+
+
+    .sixthcontaint h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+    .footerLogo{
+        padding-top:25px;
+    }
+    
+    
+    
+
+
+    .footerContainer {
+        padding:10px;
+    
+    }
+
+    .footerlist {
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        align-items: flex-start;
+    
+    }
+    
+    .footercopyright{
+      line-height: 22px;
+        text-align: center;
+        width: 100%;
+        font-size: 17px;
+        
+    }
+
+}
